@@ -1,0 +1,74 @@
+p{
+    display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.container {
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 5px solid red;
+  border-radius: 15px;
+  height: 100px;
+  width: 100px;
+  color: red;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid blue;
+    border-radius: 15px;
+    height: 100px;
+    width: 290px;
+    color: blue;
+  }
+
+  .row2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .aside1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 100px;
+    width: 130px;
+    color: black;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid orange;
+    border-radius: 15px;
+    height: 100px;
+    width: 130px;
+    color: orange;
+  }
+
+  .aside2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid red;
+    border-radius: 15px;
+    height: 100px;
+    width: 130px;
+    color: red;
+  }
