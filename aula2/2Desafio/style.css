@@ -4,6 +4,8 @@
   justify-content: center;
   align-content: center;
   margin-top: 100px;
+  width: 100%;
+  height: 100%;
 }
 .header {
   position: fixed;
@@ -12,7 +14,7 @@
   top: 0px;
   border: 5px solid aqua;
   color: aqua;
-  width: 100%;
+  width:100%;
   height: 100px;
   display: flex;
   align-items: center;
@@ -20,6 +22,14 @@
 }
 .help {
   position: sticky;
+  top: 0%;
+  float: right;
+  border: 5px solid brown;
+  border-radius: 15px;
+  height: 50px;
+  width: 75px;
+  color: brown;
+  margin: 0%;
 }
 
 .aside1 {
@@ -28,8 +38,8 @@
   align-content: center;
   border: 5px solid black;
   border-radius: 15px;
-  height: 150px;
-  width: 100px;
+  height: 600px;
+  width: 500px;
   color: black;
 }
 .main {
@@ -38,8 +48,8 @@
   align-content: center;
   border: 5px solid orange;
   border-radius: 15px;
-  height: 100px;
-  width: 100px;
+  height: 500px;
+  width: 500px;
   color: orange;
 }
 .aside2 {
@@ -48,20 +58,17 @@
   align-content: center;
   border: 5px solid red;
   border-radius: 15px;
-  height: 100px;
-  width: 100px;
+  height: 500px;
+  width: 500px;
   color: red;
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-content: center;
   border: 5px solid green;
   border-radius: 15px;
-  height: 50px;
-  width: 200px;
+  height: 100px;
+  width: 1000px;
   color: green;
-  margin-left: 110px;
-  margin-top: -50px;
+  margin-left: 550px;
+  margin-top: -410px;
 }
