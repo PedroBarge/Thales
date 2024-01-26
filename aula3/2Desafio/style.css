@@ -4,16 +4,14 @@ body {
     grid-template-columns: 15%;
     grid-template-rows: 15%;
     grid-template-areas:
-      "header header help "
+      "header header header "
       "asideLeft main asideRight"
       "asideLeft footer footer"
 
   }
   .help{
+    grid-area: help;
     position: sticky;
-    display: flex;
-    justify-self: flex-end;
-    align-self: flex-end;
     border: 15px solid brown;
   }
   header {
