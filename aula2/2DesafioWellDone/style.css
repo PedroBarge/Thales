@@ -1,0 +1,57 @@
+body {
+  margin: 0; /* Removendo margens padrão do corpo da página */
+}
+header {
+  border: 15px solid cadetblue;
+  height: 15%;
+  width: 100%;
+}
+.containerHelp {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+.help{
+    position: sticky;
+    top: 0%;
+    width: 15%;
+    height: 15%;
+    border: 15px solid brown;
+}
+.container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+.asideLeft {
+  box-sizing: border-box;
+  height: 100%;
+  width: 30%;
+  border: 15px solid black;
+}
+.main {
+  box-sizing: border-box;
+  height: 50%;
+  width: 50%;
+  border: 15px solid orange;
+}
+.asideRight {
+  box-sizing: border-box;
+  height: 50%;
+  width: 50%;
+  border: 15px solid red;
+}
+.containerFooter {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+
+  margin-top: -23%;
+}
+.footer {
+  height: 36.75%;
+  width: 75%;
+  border: 15px solid green;
+}
