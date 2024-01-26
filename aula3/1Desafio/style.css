@@ -1,0 +1,39 @@
+body {
+    margin: 0; 
+    display: grid;
+    grid-template-columns: 15%;
+    grid-template-rows: 15%;
+    grid-template-areas:
+      "logo header header"
+      "asideLeft main asideRight"
+  }
+
+  .logo {
+    grid-area: logo;
+    border: 15px solid red;
+  }
+  
+  
+  header {
+    grid-area: header;
+    border: 15px solid cadetblue;
+  }
+  
+  .asideLeft {
+    grid-area: asideLeft;
+    box-sizing: border-box;
+    border: 15px solid black;
+  }
+  
+  .main {
+    grid-area: main;
+    box-sizing: border-box;
+    border: 15px solid orange;
+  }
+  
+  .asideRight {
+    grid-area: asideRight;
+    box-sizing: border-box;
+    border: 15px solid red;
+  }
+  
