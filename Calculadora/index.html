@@ -6,34 +6,34 @@
     <title>Calculator</title>
   </head>
   <body>
-    <a href="../index.html"><button>Home</button></a>
+    <h1>Calculadora</h1>
     <p></p>
     <input id="display" readonly />
-    <button onclick="clean()">AC</button>
     <div>
+      <button onclick="clean()" id="ac">AC</button>
       <button class="option" id="add">+</button>
+    </div>
+    <div>
+      <button class="num" id="num1">1</button>
+      <button class="num" id="num2">2</button>
+      <button class="num" id="num3">3</button>
       <button class="option" id="sub">-</button>
+    </div>
+    <div>
+      <button class="num" id="num4">4</button>
+      <button class="num" id="num5">5</button>
+      <button class="num" id="num6">6</button>
       <button class="option" id="mult">*</button>
+    </div>
+    <div>
+      <button class="num" id="num7">7</button>
+      <button class="num" id="num8">8</button>
+      <button class="num" id="num9">9</button>
       <button class="option" id="div">/</button>
     </div>
-    <p></p>
     <div>
-      <button class="num">1</button>
-      <button class="num">2</button>
-      <button class="num">3</button>
-      <button class="num">4</button>
-      <button class="num">5</button>
-    </div>
-    <p></p>
-    <div>
-      <button class="num">6</button>
-      <button class="num">7</button>
-      <button class="num">8</button>
-      <button class="num">9</button>
       <button class="num">0</button>
-    </div>
-    <div>
-      <button onclick="equal()" >=</button>
+      <button onclick="equal()">=</button>
     </div>
     <p></p>
 
