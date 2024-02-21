@@ -8,7 +8,39 @@
     <title>Password Generator</title>
   </head>
   <body>
-    <div class="home"></div>
+    <h5>Password Generator</h5>
+    <div class="container">
+      <input type="text" id="showPassword" readonly /> 
+      <button id="copy" onclick="copyPassword()">Copy</button>
+      <div>
+        Characters range <span id="maxCharacters">6</span>
+      </div>
+      <div>
+        <input type="range" name="range" id="range" min="6" max="32" value="6">
+        <label for="range"></label>
+      </div>
+      <div>
+        <input type="checkbox" name="uppercase" id="uppercase" />
+        <label for="uppercase">Uppercase</label>
+      </div>
+      <div>
+        <input type="checkbox" name="lowercase" id="lowercase" />
+        <label for="lowercase">Lowercase</label>
+      </div>
+      <div>
+        <input type="checkbox" name="numbers" id="numbers" />
+        <label for="numbers">Numbers</label>
+      </div>
+      <div>
+        <input type="checkbox" name="special" id="special" />
+        <label for="special">Special</label>
+      </div>
+      <div>
+        <input type="text" id="checkPasswordStrength" readonly>
+      </div>
+      <button id="generator" onclick="generatePassword()">Generator</button>
+      <button id="clear" onclick="cleanOptions()">Clear</button>
+    </div>
   </body>
   <script src="generator.js"></script>
 </html>
